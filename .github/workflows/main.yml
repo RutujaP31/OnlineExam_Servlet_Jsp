@@ -3,7 +3,7 @@ on: [push]  # Runs when you push code to GitHub
 
 jobs:
   run-java:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
